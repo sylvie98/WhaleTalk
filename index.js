@@ -1,4 +1,4 @@
-const input ='a whale of a deal!';
+const input ='Hi, Human';
 const vowel = ['a', 'e', 'i', 'o','u'];
 const resultarray = [];
 for(let a=0; a < input.length; a++){
@@ -10,15 +10,14 @@ for(let a=0; a < input.length; a++){
             console.log('vowels in string is'+' '+ letter.toUpperCase());
             console.log(word, ' is',b);
            resultarray.push(letter);
-          
-        } 
-       // if(word ==='e'){
-           // resultarray.push(word);
-        //}
-        if(word ==='u'){
+           if(word ==='e'){
             resultarray.push(word);
-        }
-        
+         }
+         if(word ==='u'){
+            resultarray.push(word);
+        } 
+       
+        }   
         
     }
 }
